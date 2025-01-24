@@ -36,7 +36,7 @@ class QueryProcessor:
 app = Flask(__name__)
 CORS(app)
 
-client = Groq(api_key='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')
+client = Groq(api_key='your API key')
 processor = QueryProcessor()
 
 def get_db_engine(database=None):
