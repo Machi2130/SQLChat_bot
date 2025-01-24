@@ -1,7 +1,5 @@
-setuptools>=65.5.1
-wheel>=0.38.4
 Flask==3.0.0
-groq==0.4.1
+groq
 pandas==2.1.4
 Flask-CORS==4.0.0
 SQLAlchemy==2.0.25
