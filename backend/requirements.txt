@@ -1,2 +1,7 @@
-Flask
+Flask==3.0.0
 groq
+pandas==2.1.4
+Flask-CORS==4.0.0
+SQLAlchemy==2.0.25
+PyMySQL==1.1.0
+python-dotenv==1.0.0
