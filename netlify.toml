@@ -1,9 +1,6 @@
 [build]
-  command = "cd backend && pip install -r requirements.txt && python3 app.py"
-  publish = "chat/build"
-
-[build.environment]
-  PYTHON_VERSION = "3.9"
+  command = "npm run build"
+  publish = "build"
 
 [functions]
   directory = "functions"
